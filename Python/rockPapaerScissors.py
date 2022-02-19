@@ -7,27 +7,27 @@
 #Create set functions
 #Initialize user and cpu choice
 import random
-class rps():
+class rps:
     def __init__(self):
         self.__userScore=0
         self.__cpuScore=0
 
-    def intro(self):
+    def intro():
         print("Intro?(y/n)")
         selection=input()
         selection=selection.lower()
         if selection=='y':
-            print("Please eneter your name.")
+            print("Please enter your name.")
             name=input()
-            print("Hello",name,"lets play some rock paper scissors!")
+            print("Hello",name+",","lets play some rock paper scissors!")
             return True
         if selection=='n':
             return True
             
     #intro()
-    def main(self,userScore,cpuScore):
-        userScore=self.__userScore
-        cpuScore=self.__cpuScore
+    def main():
+        userScore=0
+        cpuScore=0
         print ('You:',userScore,'\t me:',cpuScore)
         choices=["rock","paper","scissors","Stop"]
         cpuTurn=random.choice(choices)
