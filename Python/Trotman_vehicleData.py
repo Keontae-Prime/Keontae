@@ -4,6 +4,7 @@
 import csv
 while True:
         try:
+            #Must download the following file
             #EPA Vehicle Data.csv
             myFile=input('Enter the path to the CSV file:\n')
             file=open(myFile)
