@@ -2,15 +2,14 @@
 #This program takes two non-zero numbers and divides them.
 #Function that checks whether or not the numbers are zero.
 #Imports that help stop the program if user doesn't input a number.
-import os
 import sys
 def num1():
     #If it's not zero, continue to next function
-    if x != 0  and y != 0:
+    if y != 0:
        num2()
     #If it's zero give user a message.
-    elif x==0 or y==0:
-        print("You cannot divide with zero.")
+    elif y==0:
+        print("You cannot divide by zero.")
 #Function that divides the first number by the second number.
 def num2():
     z=x/y

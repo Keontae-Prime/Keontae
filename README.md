@@ -1,2 +1,2 @@
 # Keontae
-Just some stuff I've worked on.
+ Just some stuff I've been worked on.
