@@ -1,2 +1,2 @@
 # Keontae
- Just some stuff I've worked on.
+ Here are some projects I've been working on.
