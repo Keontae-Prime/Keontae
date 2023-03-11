@@ -4,7 +4,7 @@
 import csv
 def main():
     # Opens the area abbreviations file
-    stateAbbreviations=open('State_abbreviations.csv')
+    stateAbbreviations=open('State_Abbreviations.csv')
     # Reads the area abbreviations file
     stateReader=csv.reader(stateAbbreviations)
     # opens geocodes file
