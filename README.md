@@ -1,2 +1,2 @@
 # Keontae Trotman
- Class Projects.
+ Hello! Here are some of the projects that I have worked on.
